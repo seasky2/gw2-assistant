@@ -1,0 +1,19 @@
+# Key and local config - NEVER commit
+opencode.json
+
+# Personal account data (progress snapshots)
+gw2_history.jsonl
+
+# Regenerable caches (7-day TTL, the server rebuilds them)
+gw2_items_index.json
+gw2_recipes_cache.json
+
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# Editors and OS
+.vscode/
+.idea/
+Thumbs.db
